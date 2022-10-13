@@ -1,9 +1,15 @@
 import "./App.css";
+import { AppContainer, CardContainer, ColumnContainer, ColumnTitle } from "./styles";
 
 export const App = () => {
   return (
-    <div>
-      <h4>Hello, World</h4>
-    </div>
+    <AppContainer>
+      <ColumnContainer>
+        <ColumnTitle>Todo:</ColumnTitle>
+        <CardContainer>First Item</CardContainer>
+        <CardContainer>Second Item</CardContainer>
+        <CardContainer>Third Item</CardContainer>
+      </ColumnContainer>
+    </AppContainer>
   );
 };
