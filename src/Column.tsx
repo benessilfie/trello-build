@@ -13,11 +13,7 @@ export const Column = ({ text }: ColumnProps) => {
       <Card text="Generate app scaffold" />
       <Card text="Learn Typescript" />
       <Card text="Begin to use static typing" />
-      <AddNewItem
-        toggleButtonText="+ Add another task"
-        onAdd={() => console.log("Item created")}
-        dark
-      />
+      <AddNewItem toggleButtonText="+ Add another task" onAdd={(e) => console.log(e)} dark />
     </ColumnContainer>
   );
 };
