@@ -49,3 +49,27 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  src: url("./assets/fonts/HelveticaNowDisplay-Regular.woff2") format("woff2"),
+    url("./assets/fonts/HelveticaNowDisplay-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  src: url("./assets/fonts/HelveticaNowDisplay-Medium.woff2") format("woff2"),
+    url("./assets/fonts/HelveticaNowDisplay-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Helvetica Now Display";
+  src: url("./assets/fonts/HelveticaNowDisplay-Bold.woff2") format("woff2"),
+    url("./assets/fonts/HelveticaNowDisplay-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
