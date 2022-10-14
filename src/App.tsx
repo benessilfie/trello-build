@@ -1,5 +1,4 @@
 import { AddNewItem } from "./AddNewItem";
-import "./App.css";
 import { Column } from "./Column";
 import { AppContainer } from "./styles";
 import { useAppState } from "./state/AppStateContext";
